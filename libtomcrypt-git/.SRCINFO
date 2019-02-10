@@ -1,6 +1,6 @@
 pkgbase = libtomcrypt-git
 	pkgdesc = A fairly comprehensive, modular and portable cryptographic toolkit.
-	pkgver = 1.17.r379.gaeaa6d4
+	pkgver = v1.18.2.r423.g01c455c3
 	pkgrel = 1
 	url = http://www.libtom.net
 	arch = i686
