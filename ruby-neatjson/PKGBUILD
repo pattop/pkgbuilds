@@ -3,7 +3,7 @@
 
 _gemname=neatjson
 pkgname=ruby-$_gemname
-pkgver=0.9
+pkgver=0.10.5
 pkgrel=1
 pkgdesc='Pretty, powerful, flexible JSON generation.'
 arch=(any)
@@ -13,7 +13,7 @@ depends=(ruby)
 options=(!emptydirs)
 source=(https://rubygems.org/downloads/$_gemname-$pkgver.gem)
 noextract=($_gemname-$pkgver.gem)
-sha1sums=('e8d0009037fee6879e3afbdb1699e11e6a86a964')
+sha256sums=('1ac432ab40c5b7ede55918fc78af996494c24b51ce3c3ea0f63f1bea11a6a172')
 
 package() {
   local _gemdir="$(ruby -e'puts Gem.default_dir')"
