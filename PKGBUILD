@@ -3,7 +3,7 @@
 
 _gemname=neatjson
 pkgname=ruby-$_gemname
-pkgver=0.9
+pkgver=0.10.5
 pkgrel=1
 pkgdesc='Pretty, powerful, flexible JSON generation.'
 arch=(any)
